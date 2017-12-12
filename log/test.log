@@ -394,3 +394,6 @@ Started GET "/posts/new" for 127.0.0.1 at 2017-12-12 04:31:08 +0000
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 Started GET "/posts/new" for 127.0.0.1 at 2017-12-12 04:32:03 +0000
 Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 360ms (Views: 348.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
