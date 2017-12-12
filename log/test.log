@@ -434,3 +434,23 @@ Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 Started GET "/posts/new" for 127.0.0.1 at 2017-12-12 04:40:02 +0000
 Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 331ms (Views: 316.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-12-12 04:40:03 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-12-12 04:40:03 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2017-12-12 04:40:03 +0000
+  [1m[35m (0.1ms)[0m  rollback transaction
