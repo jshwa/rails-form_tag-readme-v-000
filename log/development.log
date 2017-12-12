@@ -200,3 +200,35 @@ Started GET "/posts/new" for 66.69.239.17 at 2017-12-12 04:48:02 +0000
 Cannot render console from 66.69.239.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by PostsController#new as HTML
   Rendered posts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 276ms (Views: 275.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 66.69.239.17 at 2017-12-12 04:48:02 +0000
+Cannot render console from 66.69.239.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 66.69.239.17 at 2017-12-12 04:48:02 +0000
+Cannot render console from 66.69.239.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 66.69.239.17 at 2017-12-12 04:48:02 +0000
+Cannot render console from 66.69.239.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 66.69.239.17 at 2017-12-12 04:48:02 +0000
+Cannot render console from 66.69.239.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 66.69.239.17 at 2017-12-12 04:48:02 +0000
+Cannot render console from 66.69.239.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/posts" for 66.69.239.17 at 2017-12-12 04:48:14 +0000
+Cannot render console from 66.69.239.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"rsat", "description"=>"arstarstarstars"}, "authenticity_token"=>"XQOgJubiYZn1C2HPRlp0jfX1OgFugywUm55oNlGavNaOrPyIzmNB9nWWb532thhg62rkCL2CbXQOoAh2fVdIjQ=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "rsat"], ["description", "arstarstarstars"], ["created_at", "2017-12-12 04:48:14.613652"], ["updated_at", "2017-12-12 04:48:14.613652"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Redirected to http://165.227.81.218:39266/posts
+Completed 302 Found in 32ms (ActiveRecord: 4.9ms)
